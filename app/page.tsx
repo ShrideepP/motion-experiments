@@ -1,7 +1,7 @@
-import IOSNotificationStack from "@/app/_components/ios-notification-stack";
+import { IosBrightnessSlider } from "@/app/_components/ios-brightness-slider";
 
 const Home = () => {
-  return <IOSNotificationStack />;
+  return <IosBrightnessSlider />;
 };
 
 export default Home;

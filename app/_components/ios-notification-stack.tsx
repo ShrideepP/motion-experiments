@@ -75,7 +75,7 @@ const notifVars: Variants = {
   },
 };
 
-const IOSNotificationStack = () => {
+export const IOSNotificationStack = () => {
   const [showLess, setShowLess] = useState(true);
   const [clearStep, setClearStep] = useState(0);
 
@@ -185,5 +185,3 @@ const IOSNotificationStack = () => {
     </div>
   );
 };
-
-export default IOSNotificationStack;
